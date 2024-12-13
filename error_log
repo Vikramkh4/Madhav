@@ -1,0 +1,25 @@
+[06-Jun-2024 06:06:48 UTC] PHP Fatal error:  Cannot declare class App\Controllers\admin\FeesGroup because the name is already in use in /home2/roitechc/public_html/madhav_college/app/Controllers/admin/FeesGroup.php on line 9
+[06-Jun-2024 02:08:58 America/Boise] PHP Deprecated:  Optional parameter $type declared before required parameter $value is implicitly treated as a required parameter in /home2/roitechc/public_html/madhav_college/app/Helpers/main_helper.php on line 88
+[10-Jun-2024 04:43:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home2/roitechc/public_html/madhav_college/app/Config/Constants.php:109
+Stack trace:
+#0 /home2/roitechc/public_html/madhav_college/system/Boot.php(197): require_once()
+#1 /home2/roitechc/public_html/madhav_college/system/Boot.php(45): CodeIgniter\Boot::loadConstants()
+#2 /home2/roitechc/public_html/madhav_college/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#3 {main}
+  thrown in /home2/roitechc/public_html/madhav_college/app/Config/Constants.php on line 109
+[10-Jun-2024 04:56:51 America/Boise] PHP Fatal error:  Cannot use empty array elements in arrays in /home2/roitechc/public_html/madhav_college/app/Helpers/main_helper.php on line 114
+[13-Jun-2024 10:49:25 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Admin\Notice::edit_notice() in /home2/roitechc/public_html/madhav_college/app/Controllers/admin/Notice.php on line 120
+[13-Jun-2024 10:49:34 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Admin\Notice::edit_notice() in /home2/roitechc/public_html/madhav_college/app/Controllers/admin/Notice.php on line 120
+[13-Jun-2024 10:50:34 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Admin\Notice::edit_notice() in /home2/roitechc/public_html/madhav_college/app/Controllers/admin/Notice.php on line 120
+[19-Jun-2024 12:02:41 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::get_banner() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 27
+[27-Jun-2024 08:02:41 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 150
+[27-Jun-2024 08:02:50 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 150
+[27-Jun-2024 08:30:51 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 150
+[27-Jun-2024 08:37:42 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 150
+[27-Jun-2024 08:55:48 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 150
+[27-Jun-2024 09:05:43 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 150
+[27-Jun-2024 09:18:55 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 150
+[27-Jun-2024 09:55:47 UTC] PHP Fatal error:  Cannot redeclare App\Controllers\Api::uploadFile() in /home2/roitechc/public_html/madhav_college/app/Controllers/Api.php on line 149
+[09-Jul-2024 01:33:12 America/Boise] PHP Fatal error:  Cannot use try without catch or finally in /home2/roitechc/public_html/madhav_college/app/Helpers/main_helper.php on line 256
+[15-Jul-2024 06:34:28 America/Boise] PHP Fatal error:  Cannot redeclare getCollegeId() (previously declared in /home2/roitechc/public_html/madhav_college/app/Helpers/main_helper.php:194) in /home2/roitechc/public_html/madhav_college/app/Helpers/main_helper.php on line 241
+[25-Jul-2024 06:31:48 UTC] PHP Fatal error:  Cannot use App\Models\Invoice_Model as Invoice_Model because the name is already in use in /home2/roitechc/public_html/madhav_college/app/Controllers/admin/Invoice.php on line 13
